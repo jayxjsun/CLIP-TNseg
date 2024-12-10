@@ -1,5 +1,5 @@
 # CLIP-TNseg: A Multi-Modal Hybrid Framework for Thyroid Nodule Segmentation in Ultrasound Images
-This repository contains the code used in the paper ["CLIP-TNseg: A Multi-Modal Hybrid Framework for Thyroid Nodule Segmentation in Ultrasound Images"]
+This repository contains the code used in the paper ["CLIP-TNseg: A Multi-Modal Hybrid Framework for Thyroid Nodule Segmentation in Ultrasound Images"](https://arxiv.org/abs/2412.05530)
 
 
 
@@ -16,10 +16,11 @@ This code base depends on pytorch, torchvision and clip (`pip install git+https:
 * `comprehensive dataset we constructed`: https://drive.google.com/file/d/1N1AOMjID9NyZlRs_IvjhRb9C_iMS2E95/view?usp=sharing
 
 ### Third Party Dependencies
-For some of the datasets third party dependencies are required. Run the following commands in the `third_party` folder.  
+Third party dependencies are required. Run the following commands in the `third_party` folder. 
 ```bash
 git clone https://github.com/ChenyunWu/PhraseCutDataset.git
 ```
+And replace the `data` folder with comprehensive dataset we constructed.
 
 
 ### Weights
@@ -38,6 +39,14 @@ The source code files in this repository (excluding model weights) are released 
 
 ### Citation
 ```
-
+@misc{sun2024cliptnsegmultimodalhybridframework,
+      title={CLIP-TNseg: A Multi-Modal Hybrid Framework for Thyroid Nodule Segmentation in Ultrasound Images}, 
+      author={Xinjie Sun and Boxiong Wei and Yalong Jiang and Liquan Mao and Qi Zhao},
+      year={2024},
+      eprint={2412.05530},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.05530}, 
+}
 
 ```
