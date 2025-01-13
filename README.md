@@ -20,7 +20,7 @@ Third party dependencies are required. Run the following commands in the `third_
 ```bash
 git clone https://github.com/ChenyunWu/PhraseCutDataset.git
 ```
-Replace the `data` folder with comprehensive dataset we constructed and rename PhraseCutDataset to thyroid.
+Replace the `data` folder with comprehensive dataset we constructed and rename `PhraseCutDataset` to `thyroid`.
 
 
 ### Weights
